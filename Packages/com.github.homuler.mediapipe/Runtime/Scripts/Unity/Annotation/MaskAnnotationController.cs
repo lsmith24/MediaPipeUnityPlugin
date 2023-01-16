@@ -47,7 +47,7 @@ namespace Mediapipe.Unity
     protected override void SyncNow()
     {
       isStale = false;
-      annotation.Draw(_currentTarget == null ? null : _maskArray, _maskWidth, _maskHeight);
+      //annotation.Draw(_currentTarget == null ? null : _maskArray, _maskWidth, _maskHeight);
     }
   }
 }
